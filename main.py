@@ -25,26 +25,6 @@ if weekday == 4:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # import smtplib
 #
 # my_email = "thurrappattujoseph@gmail.com"
