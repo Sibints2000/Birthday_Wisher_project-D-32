@@ -14,6 +14,8 @@ if weekday == 4:
 
     print(quote)
     with smtplib.SMTP("smtp.gmail.com") as connection:
+        connection.starttls()
+        connection.login(MY_EMAIL, MY_PASSWORD)
 
 
 
