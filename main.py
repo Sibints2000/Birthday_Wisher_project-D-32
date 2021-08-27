@@ -13,7 +13,7 @@ if weekday == 4:
         quote = random.choice(all_quotes)
 
     print(quote)
-    connection = smtplib.SMTP("")
+    connection = smtplib.SMTP("smtp.gmail.com")
 
 
 
