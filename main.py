@@ -3,7 +3,9 @@ import datetime as dt
 
 now = dt.datetime.now()
 weekday = now.weekday()
-if weekday == 0:
+if weekday == 5:
+    with open("quotes.txt") as quote_file:
+
 
 
 
